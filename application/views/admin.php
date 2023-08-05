@@ -5,7 +5,7 @@
             <tr>
                 <th>ID Admin</th>
                 <th>Username</th>
-                <th>NAMA</th>
+                <th>Type</th>
             </tr>
         </thead>
         <tbody>

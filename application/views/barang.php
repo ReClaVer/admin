@@ -1,18 +1,18 @@
 <div class="container-fluid">
-  <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-plus fa-sm">Tambah Barang</i></button>
+  <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-plus fa-sm">  Add Product</i></button>
 
   <table class="table table-bordered">
     <tr>
-      <th>NO</th>
-      <th>NAMA BARANG</th>
-      <th>KETERANGAN</th>
-      <th>WARNA</th>
-      <th>TAGS</th>
-      <th>SIZE</th>
-      <th>HARGA</th>
-      <th>RATING</th>
-      <th>IMAGE</th>
-      <th colspan="2">AKSI</th>
+      <th>Number</th>
+      <th>Product Name</th>
+      <th>About</th>
+      <th>Colour</th>
+      <th>Tag</th>
+      <th>Size</th>
+      <th>Price</th>
+      <th>Rating</th>
+      <th>Image</th>
+      <th colspan="2">Action</th>
     </tr>
 
     <?php 
@@ -44,7 +44,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="exampleModalLabel">FORM INPUT DATA BARANG</h4>
+        <h4 class="modal-title" id="exampleModalLabel">Form Input Data Product</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -52,19 +52,19 @@
       <div class="modal-body">
         <form method="post" action="<?php echo base_url().'barang/tambah_aksi'; ?>">
           <div class="form-group">
-            <label>Nama Barang</label>
+            <label>Product Name</label>
             <input type="text" name="name" class="form-control">
           </div>
           <div class="form-group">
-            <label>Keterangan</label>
+            <label>About</label>
             <input type="text" name="description" class="form-control">
           </div>
           <div class="form-group">
-            <label>Warna</label>
+            <label>Colour</label>
             <input type="text" name="colors" class="form-control">
           </div>
           <div class="form-group">
-            <label>Tags</label>
+            <label>Tag</label>
             <input type="text" name="tags" class="form-control">
           </div>
           <div class="form-group">
@@ -72,7 +72,7 @@
             <input type="text" name="sizes" class="form-control">
           </div>
           <div class="form-group">
-            <label>Harga Jual</label>
+            <label>Price</label>
             <input type="text" name="price" class="form-control">
           </div>
           <div class="form-group">
