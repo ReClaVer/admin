@@ -11,7 +11,7 @@
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-store"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Vortex</div>
+                <div class="sidebar-brand-text mx-3">ECOMMERCE</div>
             </a>
 
             <!-- Divider -->
@@ -36,7 +36,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Account:</h6>
                         <a class="collapse-item <?php if ($this->uri->segment(1) == 'costumer') echo 'active'; ?>" href="<?php echo base_url('costumer'); ?>">Costumer</a>
-                        <a class="collapse-item <?php if ($this->uri->segment(1) == 'admin') echo 'active'; ?>" href="<?php echo base_url('admin'); ?>">Administrator</a>
+                        <!-- <a class="collapse-item <?php if ($this->uri->segment(1) == 'admin') echo 'active'; ?>" href="<?php echo base_url('admin'); ?>">Administrator</a> -->
                     </div>
                 </div>
             </li>
@@ -52,7 +52,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Produk:</h6>
                         <a class="collapse-item <?php if ($this->uri->segment(1) == 'barang') echo 'active'; ?>" href="<?php echo base_url('barang'); ?>">Data Produk</a>
-                        <a class="collapse-item <?php if ($this->uri->segment(1) == 'stok') echo 'active'; ?>" href="<?php echo base_url('stok'); ?>">Stok</a>
+                        <!-- <a class="collapse-item <?php if ($this->uri->segment(1) == 'stok') echo 'active'; ?>" href="<?php echo base_url('stok'); ?>">Stok</a> -->
                     </div>
                 </div>
             </li>
@@ -145,7 +145,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">ADMINISTRATOR</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Administrator</span>
                                 <img class="img-profile rounded-circle"
                                     src="<?php echo base_url() ?>assets/img/undraw_profile.svg">
                             </a>

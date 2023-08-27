@@ -52,3 +52,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'auth';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// // Route for the index method of the Barang controller
+// $route['barang'] = 'Barang/index';
+
+// // Route for the tambah_aksi method of the Barang controller
+// $route['barang/tambah_aksi'] = 'Barang/tambah_aksi';
+
+// // Route for the hapus method of the Barang controller
+// $route['barang/hapus/(:num)'] = 'Barang/hapus/$1';
+
+// // Route for the edit method of the Barang controller
+// $route['barang/edit/(:num)'] = 'Barang/edit/$1';
+
+// // Route for the update method of the Barang controller
+// $route['barang/update/(:num)'] = 'Barang/update/$1';
