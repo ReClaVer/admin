@@ -6,8 +6,8 @@
       <th>Number</th>
       <th>Product Name</th>
       <th>About</th>
-      <th>Colour</th>
-      <th>Tag</th>
+      <!-- <th>Colour</th> -->
+      <!-- <th>Tag</th> -->
       <th>Size</th>
       <th>Price</th>
       <th>Rating</th>
@@ -23,8 +23,8 @@
       <td><?php echo $no++ ?></td>
       <td><?php echo $brg->name ?></td>
       <td><?php echo $brg->description ?></td>
-      <td><?php echo $brg->colors ?></td>
-      <td><?php echo $brg->tags ?></td>
+      <!-- <td><?php echo $brg->colors ?></td> -->
+      <!-- <td><?php echo $brg->tags ?></td> -->
       <td><?php echo $brg->sizes ?></td>
       <td><?php echo $brg->price ?></td>
       <td><?php echo $brg->rating ?></td>
@@ -44,7 +44,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="exampleModalLabel">Form Input Data Product</h4>
+        <h4 class="modal-title" id="exampleModalLabel">Formulir Input Data Produk</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -52,27 +52,27 @@
       <div class="modal-body">
         <form method="post" action="<?php echo base_url().'barang/tambah_aksi'; ?>">
           <div class="form-group">
-            <label>Product Name</label>
+            <label>Nama Produk</label>
             <input type="text" name="name" class="form-control">
           </div>
           <div class="form-group">
-            <label>About</label>
+            <label>Tentang</label>
             <input type="text" name="description" class="form-control">
           </div>
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label>Colour</label>
             <input type="text" name="colors" class="form-control">
-          </div>
-          <div class="form-group">
+          </div> -->
+          <!-- <div class="form-group">
             <label>Tag</label>
             <input type="text" name="tags" class="form-control">
-          </div>
+          </div> -->
           <div class="form-group">
-            <label>Size</label>
+            <label>Ukuran</label>
             <input type="text" name="sizes" class="form-control">
           </div>
           <div class="form-group">
-            <label>Price</label>
+            <label>Harga</label>
             <input type="text" name="price" class="form-control">
           </div>
           <div class="form-group">
@@ -80,7 +80,7 @@
             <input type="text" name="rating" class="form-control">
           </div>
           <div class="form-group">
-            <label>Image Link</label>
+            <label>Link Gambar</label>
             <input type="text" name="image" class="form-control">
           </div>
           <button type="reset" class="btn btn-danger" data-dismiss="modal">Reset</button>

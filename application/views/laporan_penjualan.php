@@ -23,7 +23,7 @@
             <tr>
                 <th>ID Order</th>
                 <th>Nama User</th>
-                <th>List Shop</th>
+<!--                 <th>List Shop</th> -->
                 <th>Delivery</th>
                 <th>Payment</th>
                 <th>Note</th>
@@ -31,6 +31,8 @@
                 <th>Image</th>
                 <th>Date Time</th>
                 <th>Arrived</th>
+                <!-- <th>Image Path</th> -->
+
             </tr>
         </thead>
         <tbody>
@@ -38,7 +40,7 @@
                 <tr>
                     <td><?= $data->id_order ?></td>
                     <td><?= $data->name ?></td>
-                    <td><?= $data->list_shop ?></td>
+<!--                     <td><?= $data->list_shop ?></td> -->
                     <td><?= $data->delivery ?></td>
                     <td><?= $data->payment ?></td>
                     <td><?= $data->note ?></td>
@@ -46,6 +48,7 @@
                     <td><img src="<?= $data->image ?>" class="img-thumbnail" style="width: 100px;"></td>
                     <td><?= $data->date_time ?></td>
                     <td><?= $data->arrived ?></td>
+                    <!-- <td><img src="<?= $data->image_path ?>" class="img-thumbnail" style="width: 100px;"></td> -->
                 </tr>
             <?php endforeach; ?>
         </tbody>

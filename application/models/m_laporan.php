@@ -11,7 +11,7 @@ class M_laporan extends CI_Model
             $this->db->where('date_time <=', $end_date);
         }
 
-        $this->db->select('o.id_order, o.id_user, o.list_shop, o.delivery, o.payment, o.note, o.total, o.image, o.date_time, o.arrived, u.name');
+        $this->db->select('o.id_order, o.id_user, o.list_shop, o.delivery, o.payment, o.note, o.total, o.image, o.date_time, o.arrived, u.name, o.image_path');
         $this->db->from('tb_order o');
         $this->db->join('tb_user u', 'u.id_user = o.id_user', 'left');
         return $this->db->get()->result();

@@ -9,10 +9,10 @@
             <label for="rating">Rating</label>
             <input type="text" name="rating" class="form-control" value="<?= $barang->rating ?>">
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="tags">Tags</label>
             <input type="text" name="tags" class="form-control" value="<?= $barang->tags ?>">
-        </div>
+        </div> -->
         <div class="form-group">
             <label for="price">Harga</label>
             <input type="text" name="price" class="form-control" value="<?= $barang->price ?>">
@@ -21,10 +21,10 @@
             <label for="sizes">Size</label>
             <input type="text" name="sizes" class="form-control" value="<?= $barang->sizes ?>">
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="colors">Warna</label>
             <input type="text" name="colors" class="form-control" value="<?= $barang->colors ?>">
-        </div>
+        </div> -->
         <div class="form-group">
             <label for="description">Deskripsi</label>
             <textarea name="description" class="form-control" rows="3"><?= $barang->description ?></textarea>

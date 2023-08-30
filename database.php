@@ -76,9 +76,9 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	// 'username' => 'ridho',
-	'username' => 'root',
-	'password' => '',
+	'username' => 'ridho',
+	// 'username' => 'root',
+	'password' => 'password',
 	'database' => 'ecomerce',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -96,14 +96,14 @@ $db['default'] = array(
 	'save_queries' => TRUE
 );
 
-// <?php
-// defined('BASEPATH') OR exit('No direct script access allowed');
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-// $db = $this->db->conn_id;
+$db = $this->db->conn_id;
 
-// if (!$db) {
-//     die("Koneksi database gagal: " . mysqli_connect_error());
-// } else {
-//     echo "Koneksi database berhasil!";
-// }
+if (!$db) {
+    die("Koneksi database gagal: " . mysqli_connect_error());
+} else {
+    echo "Koneksi database berhasil!";
+}
 
